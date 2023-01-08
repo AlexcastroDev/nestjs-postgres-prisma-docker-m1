@@ -1,6 +1,8 @@
 # NestJS Prisma Docker
 
-> DON'T commit .env files into version control, add `.env` to `.gitignore`. `.env` files are added here as an example.
+# Diagram
+https://dbdiagram.io/d/63bb4f957d39e42284e9a250
+
 
 Develop the Nest application
 

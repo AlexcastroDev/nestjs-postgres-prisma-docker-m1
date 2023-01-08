@@ -1,0 +1,6 @@
+select r.id, c."name" as OriginName, r.DestinationName from 
+(
+	select r2.*, c."name" as DestinationName from requests r2 INNER JOIN cities c on r2.destination_id = c.id 
+) as r
+INNER JOIN cities c on r.origin_id = c.id
+where r.origin_id = 2
